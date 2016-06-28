@@ -1,4 +1,4 @@
-Official Shopizer 2.0.3
+Official BandBLabs 0.0.0
 -------------------
 Java open source e-commerce software
 
@@ -8,21 +8,19 @@ Java open source e-commerce software
 - Checkout
 - Administration
 
-
-To get the code:
--------------------
-Clone the repository:
-$ git clone git://github.com/shopizer-ecommerce/shopizer.git
-
-If this is your first time using Github, review http://help.github.com to learn the basics.
-
-You can also download the zip file containing the code from https://github.com/shopizer-ecommerce/shopizer 
+Required S/W:
+-------------------	
+elasticsearch-1.5.2
+apache-maven-3.2.5
+jdk1.8.0_92
+apache-tomcat-8.0.35
 
 To run the application:
 -------------------	
 From the command line with Maven installed:
 
-	$ cd shopizer
+	$ cd bandblabs
+	$ mvn generate-sources //only the first build to generate proxy classes
 	$ mvn clean install
 	
 
@@ -58,6 +56,4 @@ Please read the instructions on how to connect to MySQL, configure an email serv
 
 ### Documentation:
 
-Documentation available from the wiki <https://github.com/shopizer-ecommerce/shopizer/wiki>
-
-More documentation is available on shopizer web site here <http://www.shopizer.com>
+Documentation available from the wiki <https://github.com/bibinkt/bandblabs/wiki>
